@@ -14,7 +14,7 @@ import { MessageService } from '@openng/optimus-ui/api'
 import { Optimus } from '@openng/optimus-ui/config'
 import { ToastModule } from '@openng/optimus-ui/toast'
 
-// Should be moved out of shell to another repo later, so that primeNG dependency can be started to be removed from shell
+// Should be moved out of shell to another repo later, so that the Optimus UI dependency can be started to be removed from shell
 @Component({
   changeDetection: ChangeDetectionStrategy.Eager,
   selector: 'ocx-shell-toast',
